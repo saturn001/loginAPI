@@ -15,7 +15,7 @@ db.once('open', () => console.log('database created'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended :true}));
 app.use('/',route);
-
+console.log("hi!! kaise ho!! khana khakr jana ha!!!");
 app.listen(port,()=>{
 	console.log('Server Started and running on port 3000');
 })
