@@ -1,0 +1,21 @@
+{
+  "name": "assign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "joi": "^14.3.1",
+    "md5": "^2.2.1",
+    "mongoose": "^5.4.11",
+    "morgan": "^1.9.1"
+  }
+}
+
+
